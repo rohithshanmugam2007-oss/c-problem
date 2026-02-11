@@ -1,4 +1,4 @@
-##include<stdio.h>
+#include<stdio.h>
 int main()
 {
     int n;
@@ -13,4 +13,5 @@ int main()
     printf("zero");
     }
     return 0;
+
 }
