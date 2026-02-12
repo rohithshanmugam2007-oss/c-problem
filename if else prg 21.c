@@ -2,9 +2,9 @@
 int main()
 {
     char i;
-    scanf("%c",&i);
+    
     int a,b;
-    scanf("%d%d",&a,&b);
+    scanf("%d%c%d",&a,&i,&b);
     switch (i){
     case '+':
      printf("Result = %d",a+b);
@@ -19,7 +19,7 @@ int main()
      printf("Result =%d",a/b);
     break;
 default:
-
+  printf("Enter valid symbol");
     return 0;
 }
 }
