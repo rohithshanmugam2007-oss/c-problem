@@ -1,10 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int units,y,z;
+    int units,x,y,z;
     scanf("%d", &units);
+    if(units<50){
+        x=units*0;
+        printf("bill amount = Rs.0");
     
-     if(units>50 && units<100){
+     else if(units>50 && units<100){
        y=units*3;
        printf("bill amount = Rs.%d",y);
    }
@@ -14,4 +17,5 @@ int main()
    }
   
     return 0;
+
 }
