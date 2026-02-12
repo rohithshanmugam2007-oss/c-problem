@@ -5,7 +5,7 @@ int main()
     scanf("%d", &units);
     if(units<50){
         x=units*0;
-        printf("bill amount = Rs.0");
+        printf("bill amount = Rs.%d",x);
     
      else if(units>50 && units<100){
        y=units*3;
@@ -19,3 +19,4 @@ int main()
     return 0;
 
 }
+
