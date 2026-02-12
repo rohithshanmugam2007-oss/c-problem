@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d", &a);
-    if(a>=90){
-        printf("Grade A");
+   int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b && a>c){
+        printf("%d is largest",a);
     }
-    else if(a>=75){
-        printf("Grade B");
-    }
-    else {
-        printf("Grade C");
-    }
+else if(b>c){
+    printf("%d is largest", b);
+}
+else
+    printf("%d is largest", c);
     return 0;
+
 }
