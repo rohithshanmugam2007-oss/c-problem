@@ -1,0 +1,1 @@
+#include <stdio.h>int main() {    int a;    scanf("%d", &a);    int p=1;    for (int i=2;i<a;i++) {              if (a%i==0) {        printf("Not prime");       p=0;       break;           }        }            if (p==1) {        printf("prime");          }        return 0;}
