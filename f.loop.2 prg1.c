@@ -1,18 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int c=0,a,e=0;
-   int b;
+    int c=0,a,b;
+   int count=0;
 scanf("%d",&a);
 for(int i=0;i<a;i++){
     scanf("%d",&b);
-    c+=b;
+    c=c+b;
     if(b>1000){
-        e++;
+        count++;
     }
 
 }
 printf("Total expenses:%d\n",c);
-printf("Over spended Days:%d",e);
+printf("Over spended Days:%d",count);
 return 0;
+
 }
