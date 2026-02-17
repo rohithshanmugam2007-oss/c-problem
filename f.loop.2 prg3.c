@@ -2,16 +2,12 @@
 int main()
 {
     int a,b,c=0;
-    scanf("%d\n%d",&a,&b);
-    
-        for(int i=1;i<=b;i++){
-          
-            c=i*100;
-            
-        }
-        printf("%d",a-c);
-    
-    
+    scanf("%d",&a);
+    for(int i=0;i<a;i++){
+        scanf("%d",&b);
+       c=c+b;
+    }
+    printf("Total Units:%d",c);
     
     return 0;
 }
