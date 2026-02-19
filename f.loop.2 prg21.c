@@ -15,4 +15,5 @@ int main()
      printf("Remaining Capacity:%d\n",a-d);
      printf("Overflow Days:%d",count);
      return 0;
+
 }
