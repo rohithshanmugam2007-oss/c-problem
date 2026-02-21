@@ -9,7 +9,7 @@ int main()
         b=b+c;
         
        
-        if(a<2000)
+        if(b<2000)
             count++;
         
       
@@ -18,4 +18,5 @@ int main()
     printf("Final Balance:%d\n",b);
     printf("Low Balance Days:%d",count);
     
+
 }
