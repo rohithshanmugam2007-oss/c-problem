@@ -11,7 +11,7 @@ int main()
         
         
         
-        if(b>d);{
+        if(b>d){
         d=b;
         }
          
@@ -23,4 +23,5 @@ int main()
     printf("Maximum Usage:%d\n",d);
     printf("Surge Hours:%d",count);
     return 0;
+
 }
