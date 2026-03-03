@@ -3,13 +3,15 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    int r,sum=0;
-    for(int i=0;i<a-1;i++){
-        scanf("%d",&r);
-        sum=sum+r;
+    int arr[a];
+    for(int i=1;i<a-1;i++){
+        scanf("%d",&arr[i]);
     }
-    int e=a*(a+1)/2;
-    int m=e-sum;
-    printf("%d",m);
+    for(int i=1;i<a;i++){
+        if(arr[i]!=i){
+            printf("%d",i);
+            break;
+        }
+    }
     return 0;
 }
