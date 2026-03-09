@@ -16,7 +16,7 @@ int main(){
          }
          if(m<max){
              m=max;
-             index=i;
+             i=index;
          }
      }
      
@@ -24,4 +24,5 @@ int main(){
     printf("%d",i);
     
     return 0;
+
 }
